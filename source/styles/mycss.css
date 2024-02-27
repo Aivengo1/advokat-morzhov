@@ -1,5 +1,5 @@
 body { 
-    background-image: url(advokat-morzhov/source/images/fon4.jpg);
+    background: url(images/fon4.jpg);
     background-size: cover; 
     background-attachment: scroll;
     background-attachment: fixed;  
