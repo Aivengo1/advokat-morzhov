@@ -1,0 +1,183 @@
+body { 
+    background-image: url(source/images/fon4.jpg);
+    background-size: cover; 
+    background-attachment: scroll;
+    background-attachment: fixed;  
+    
+      
+}  
+
+
+html,
+body {
+  transition: all 0.3s;
+  height: 100%;
+  
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  
+}
+
+.glass-btn {
+  width: 80px;
+  height: 80px;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  margin-left: 1em;
+  margin-right: 1em;  
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &.blue-btn {
+    -webkit-box-shadow: 0px 20px 20px -17px rgba(0, 111, 255, 0.53);
+    -moz-box-shadow: 0px 20px 20px -17px rgba(0, 111, 255, 0.53);
+    box-shadow: 0px 20px 20px -17px rgba(0, 111, 255, 0.53);
+
+    &:hover {
+      -webkit-box-shadow: 0px 20px 35px -16px rgba(0, 111, 255, 0.65);
+      -moz-box-shadow: 0px 20px 35px -16px rgba(0, 111, 255, 0.65);
+      box-shadow: 0px 20px 35px -16px rgba(0, 111, 255, 0.65);      
+    }
+
+    .content {
+      font-size: 4em;
+      font-family: "Roboto", sans-serif;
+      background: linear-gradient(to right, #006fff, #00acff 70%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0px 10px 37px rgba(0, 111, 255, 0.8);
+    }
+  }
+
+  &.red-btn {
+    -webkit-box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+    -moz-box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+    box-shadow: 0px 20px 20px -17px rgba(255, 16, 39, 0.5);
+
+    &:hover {
+      -webkit-box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);
+      -moz-box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);
+      box-shadow: 0px 20px 35px -16px rgba(255, 16, 39, 0.57);      
+    }
+
+    .content {
+      font-size: 4em;
+      font-family: "Roboto", sans-serif;
+      background: linear-gradient(to right, #ff1027, #ff4f06 70%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0px 10px 37px rgba(255, 16, 39, 0.6);
+    }
+  }
+
+  &.green-btn {
+    -webkit-box-shadow: 0px 20px 20px -17px rgba(88, 255, 10, 0.701);
+    -moz-box-shadow: 0px 20px 20px -17px rgba(72, 255, 16, 0.5);
+    box-shadow: 0px 20px 20px -17px rgba(17, 249, 9, 0.5);
+
+    &:hover {
+      -webkit-box-shadow: 0px 20px 35px -16px rgba(46, 255, 19, 0.57);
+      -moz-box-shadow: 0px 20px 35px -16px rgba(44, 254, 51, 0.57);
+      box-shadow: 0px 20px 35px -16px rgba(34, 250, 14, 0.57);      
+    }
+
+    .content {
+      font-size: 4em;
+      font-family: "Roboto", sans-serif;
+      background: linear-gradient(to right, #65f80a, #3af80a 70%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0px 10px 37px rgba(92, 255, 16, 0.81);
+    }
+  }
+  
+  &:hover {
+    background-color: darken(#fafafa, 2%);    
+    transform: translateY(-5px);
+    transition: all 0.3s;
+  }
+
+}
+
+
+.navbar-nav .nav-link.active,.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    -webkit-text-stroke: 0.5px #000000;
+    
+}
+.navbar {
+   
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+}
+
+
+.navbar-brand img {
+    width: 110px;
+
+}
+
+.navbar-toggler {
+  background-color: #c1dbb0;
+  
+
+}
+.footer-text {
+    font-size: 20px;
+    color: #0d0d0d;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    padding: 5px;
+        
+}
+
+.phone {
+    font-size: 35px;
+    text-align: center;
+    color: #0d0d0d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 2px #000000;
+    border-radius: 20px;
+    border-style: solid;
+    width: 80%;
+    margin-bottom: 10px;
+    <--background: linear-gradient(to top, rgba(160, 156, 156, 0.85), transparent);-->
+    <--box-shadow: 2px 5px 5px rgb(52, 51, 51);-->
+}
+
+.button {
+  display: inline-block;
+  background: darkslategray;
+  color: #f1ebeb;
+  padding: 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 100;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.sud-text {
+    font-size: 40px;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    padding: 5px;
+    text-align: justify;
+}
+
+
+
